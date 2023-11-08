@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="OBJECTS" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 234.38 212.94">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fca61d;
+        filter: url(#drop-shadow-4);
+      }
+    </style>
+    <filter id="drop-shadow-4" filterUnits="userSpaceOnUse">
+      <feOffset dx="1" dy="1"/>
+      <feGaussianBlur result="blur" stdDeviation="1"/>
+      <feFlood flood-color="#000" flood-opacity=".15"/>
+      <feComposite in2="blur" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <path class="cls-1" d="m200.17,47.36c-3.87-8.01-11.22-14.72-20.02-15.99-10.64-1.53-20.75,4.86-28.92,11.85-8.17,6.99-15.99,15.12-26.28,18.23-18.4,5.58-37.45-6.6-56.68-6.73-12.55-.08-25.05,5.31-33.6,14.51-31.85,34.25-.08,89.22,36.41,104.31,29.46,12.18,64.76,5.3,90.54-13.46,24.59-17.89,39.73-49.29,42.55-79.58.22-2.38.37-4.75.43-7.11.25-8.89-.58-18.03-4.45-26.04Z"/>
+</svg>

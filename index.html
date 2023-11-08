@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+</head>
+<body>
+    
+
+<header>
+<div class="logo"><img src="assets/Dani-El(logo).png" alt="" srcset=""></div>
+
+<nav>
+<label for="toggle-nav" class="toggler">    <i class="fa fa-bars fa-2x" ></i> </label>
+<input type="checkbox" name="" id="toggle-nav">
+
+<ul class="all-navs">
+<li><a href="index.html">Home</a></li>
+<li><a href="#">About Me</a></li>
+<li class="dropdown-element"><a href="#"><label for="check" > Projects 
+    <svg xmlns="http://www.w3.org/2000/svg" width="15" height="12" viewBox="0 0 18 16" fill="none" >
+        <path d="M11.5981 14C10.4434 16 7.55662 16 6.40192 14L1.20577 5C0.0510743 3 1.49445 0.500002 3.80385 0.500002L14.1962 0.500003C16.5056 0.500003 17.9489 3 16.7942 5L11.5981 14Z" fill="white"/>
+        </svg>
+    </label>
+        
+
+</a>
+<input type="checkbox" class="check" id="check">
+<ul class="dropdown">
+    <li> <svg xmlns="http://www.w3.org/2000/svg" width="15" height="12" viewBox="0 0 18 16" fill="none" >
+        <path d="M11.5981 14C10.4434 16 7.55662 16 6.40192 14L1.20577 5C0.0510743 3 1.49445 0.500002 3.80385 0.500002L14.1962 0.500003C16.5056 0.500003 17.9489 3 16.7942 5L11.5981 14Z" fill="#FCA61D"/>
+        </svg><a href="#">Javascript</a></li>
+    <li> <svg xmlns="http://www.w3.org/2000/svg" width="15" height="12" viewBox="0 0 18 16" fill="none" >
+        <path d="M11.5981 14C10.4434 16 7.55662 16 6.40192 14L1.20577 5C0.0510743 3 1.49445 0.500002 3.80385 0.500002L14.1962 0.500003C16.5056 0.500003 17.9489 3 16.7942 5L11.5981 14Z" fill="#FCA61D"/>
+        </svg><a href="#">React</a></li>
+    <li> <svg xmlns="http://www.w3.org/2000/svg" width="15" height="12" viewBox="0 0 18 16" fill="none" >
+        <path d="M11.5981 14C10.4434 16 7.55662 16 6.40192 14L1.20577 5C0.0510743 3 1.49445 0.500002 3.80385 0.500002L14.1962 0.500003C16.5056 0.500003 17.9489 3 16.7942 5L11.5981 14Z" fill="#FCA61D"/>
+        </svg><a href="#">laravel/php</a></li>
+
+
+
+
+</ul>
+
+
+
+
+</li>
+
+
+
+</ul>
+
+
+</nav>
+
+<button  class="btn-head">Download CV</button>
+
+</header>
+
+<div class="design-elements">
+
+
+<img src="assets/circles.png" alt="" class="circles">
+<img src="assets/liquid shape 1.png" alt="" class="liquid-shape">
+<img src="assets/liquid shape 2.png" alt="" class="liquid-shape2">
+<img src="assets/liquid shape 2.png" alt="" class="liquid-shape22">
+
+
+</div>
+
+
+
+<div  class="home-hero"><h1   >My Javascript Project</h1>
+
+
+    <button onclick="hide('.home-hero','.jsprojects')"  > 
+        View</button>
+
+</div>
+
+
+<div class="jsprojects">
+
+    <div class="circle-container">  
+    <div class="circle" onclick="hide('.jsprojects','.calculator-container')" > <h3>Calculator</h3> </div>
+    <img src="assets/liquid shape 2.png" alt="" class="liquid-shape2">
+    
+</div>
+
+<div class="circle-container">  
+    <div class="circle" onclick="hide('.jsprojects','.counter')" > <h3>Counter</h3> </div>
+    <img src="assets/liquid shape 2.png" alt="" class="liquid-shape2">
+    
+</div>
+<div class="circle-container">  
+    <div class="circle" onclick="hide('.jsprojects','.todo-list')"> <h3>To do list app</h3> </div>
+    <img src="assets/liquid shape 2.png" alt="" class="liquid-shape2">
+    
+</div>
+<div class="circle-container">  
+    <div class="circle" onclick="hide('.jsprojects','.weather-app')" > <h3>Weather app</h3> </div>
+    <img src="assets/liquid shape 2.png" alt="" class="liquid-shape2">
+    
+</div>
+<div class="circle-container">  
+    <div class="circle"> <h3>Notes app</h3> </div>
+    <img src="assets/liquid shape 2.png" alt="" class="liquid-shape2">
+    
+</div>
+<div class="circle-container">  
+    <div class="circle"> <h3>E-commerce app </h3> </div>
+    <img src="assets/liquid shape 2.png" alt="" class="liquid-shape2">
+    
+</div> 
+
+
+
+</div>  
+
+<div class="calculator-container">
+
+    <div class="calculator">
+
+       <div class="screen">
+        <h5></h5>
+        <h1 class="main-text"></h1>
+
+       </div>
+
+       <div class="row1">
+        <div class="c btn">C</div>
+        <div class="add-and-subtract btn-symbol">+/-</div>
+        <div class="percentage btn-del">DEL</div>
+        <div class="slash orange btn-op">/</div>
+       </div>
+       <div class="row2">
+        <div class="seven btn-num">7</div>
+        <div class="eight btn-num">8</div>
+        <div class="nine btn-num">9</div>
+        <div class="multiply orange btn-op">*</div>
+       </div>
+       <div class="row3">
+        <div class="four btn-num">4</div>
+        <div class="five btn-num">5</div>
+        <div class="six btn-num">6</div>
+        <div class="minus orange btn-op">-</div>
+       </div>
+       <div class="row4">
+        <div class="one btn-num">1</div>
+        <div class="two btn-num">2</div>
+        <div class="three btn-num">3</div>
+        <div class="plus orange btn-op">+</div>
+       </div>
+       <div class="row5">
+        <div class="zero btn-num">0</div>
+        
+        <div class="decimal-point btn-num">.</div>
+        <div class="equals orange sum">=</div>
+       </div>
+
+
+    </div>
+    <h3> Javascript Calculator</h3>
+
+
+
+</div>
+
+<div class="counter">
+
+
+    <div class="counter-container">
+
+        <h1 class="counter-text">1</h1>
+        <div class="all-btns"> 
+        <div class="btn-delete">Subtract</div>
+        <div class="btn-reset">Reset</div>
+        <div class="btn-add">Add</div>
+    </div>
+
+
+    </div>
+
+
+    <h1>Javascript <br>Counter</h1>
+
+
+
+
+
+</div>
+
+
+<div class="todo-list">
+
+<div class="todo-app">
+
+<h1>To-do list</h1>
+<div action="">
+<input type="text" class="add-task" placeholder="Add your task">
+<input type="submit" value="Add" class="add-task-btn">
+</div>
+<div class="all-tasks">
+
+<div class="task">
+<input type="checkbox" name="" id="task-checker" >
+<label class="" for="task-checker">Cooking</label>
+<span class="x"><i class="fa fa-close "></i></span>
+
+</div>
+
+</div>
+
+
+
+</div>
+ 
+
+    <h1>Javascript <br>To-do app</h1>
+
+
+
+
+
+</div>
+
+
+<div class="weather-app">
+
+<h1>Weather <br> app</h1>
+
+
+<div class="weather-app-container">
+
+    <div class="input-group"> 
+    <input type="text" 
+    placeholder="search"
+     class="search">
+        <div class="search-circle btn-group">
+    <i class="fa fa-search"></i>
+</div>
+
+</div>
+<div class="weather-status"> 
+<div class="weather-icon"> 
+<i class="fa fa-cloud fa-4x"> </i>
+
+
+</div>
+
+<h1 class="temperature">0°C</h1>
+<p>country</p>
+
+</div>
+
+<div class="bottom-status">
+    <div class="humidity">
+    <div class="humidity-icon">
+    <i class="fa fa-thermometer-empty fa-2x"></i>
+</div>
+<div class="humidity-text">
+    <h5 class="humidity">0%</h5>
+    <p>Humidity</p>
+
+</div>
+</div>
+
+
+<div class="wind-speed">
+
+    <div class="wind-speed-icon">
+        <i class="fa fa-mixcloud fa-2x" ></i>
+
+    </div>
+    <div class="wind-speed-text">
+
+<h5 class="wind-speed-text">
+    0 km/hr
+
+</h5>
+
+<p>Wind Speed</p>
+
+    </div>
+
+
+</div>
+
+
+
+
+</div>
+
+
+
+</div>
+
+
+
+
+
+
+</div>
+
+
+    
+</body>
+
+<script  src="script.js" ></script>
+</html>
